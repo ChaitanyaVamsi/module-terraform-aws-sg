@@ -14,7 +14,7 @@ variable "sg_name" {
 variable "sg_description" {
   type        = string
   description = "Description for the security group"
-  default     = ""
+  default     = "Default security group for checking_sg"
 }
 
 
