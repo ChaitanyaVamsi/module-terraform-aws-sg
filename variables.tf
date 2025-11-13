@@ -12,9 +12,12 @@ variable "sg_name" {
 }
 
 variable "sg_description" {
-  type    = string
-  default = ""
+  type        = string
+  description = "Description for the security group"
+  default     = ""
 }
+
+
 
 variable "vpc_id" {
   type = string
